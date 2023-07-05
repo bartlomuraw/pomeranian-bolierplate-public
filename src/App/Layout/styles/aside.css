@@ -28,6 +28,11 @@ aside li a {
 }
 
 aside a.active {
-  background-color: var(--color-primary-blue);
-  color: var(--color-white);
+  /*background-color: var(--color-primary-blue);*/
+  color: #FE3756;
+}
+
+aside a.active svg path {
+  /*background-color: var(--color-primary-blue);*/
+  stroke: #FE3756;
 }
