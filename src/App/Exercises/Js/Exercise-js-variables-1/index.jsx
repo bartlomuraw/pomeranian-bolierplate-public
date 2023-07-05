@@ -1,8 +1,9 @@
 import './styles.css';
 
 export function Exercise() {
-  let string1 = 'Bartek';
+  let string1 = 'Jon Snow';
   const number = '1234';
+  const name = 'Bartek';
 
   const string3 = 'Ulubiony bohater z serialu "Gra o tron" to ' + string1;
 
@@ -21,7 +22,7 @@ export function Exercise() {
         <p>{string3}</p>
        
         {/* Uzupełnij zdanie korzystając ze zmiennych oraz operacji na stringach */}
-        <p>Witaj {string1}! Jesteś {number} uzytkownikiem odwiedzającym tę stronę!</p>
+        <p>Witaj {name}! Jesteś {number} uzytkownikiem odwiedzającym tę stronę!</p>
       </section>
     </div>
   );
