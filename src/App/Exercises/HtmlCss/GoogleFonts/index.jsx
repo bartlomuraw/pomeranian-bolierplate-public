@@ -2,40 +2,110 @@ import { useState } from 'react';
 
 import './styles.css';
 
-
 export function GoogleFonts() {
+
   const [font, setFont] = useState('font-poppins');
 
 
 
-  function handleChangeFont() {
-    if { font ===}
-  setFont('font-Roboto')
-}
+
+  // OPTION 1
+
+  // function handleChangeFont() {
+
+  //   if (font === 'font-poppins') {
+
+  //     setFont('font-caprasimo');
+
+  //   } else {
+
+  //     setFont('font-poppins');
+
+  //   }
+
+  // }
 
 
-return (
 
-  <div>
 
-    <p className={`${font}`}>
+  // OPTION 2
 
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+  // function handleChangeFont() {
 
-      distinctio iste dolor quos exercitationem praesentium, facilis
+  //   if (font === 'font-poppins') {
 
-      architecto laboriosam natus, dolores minus? Qui incidunt explicabo
+  //     return setFont('font-caprasimo');
 
-      deserunt veniam tenetur saepe exercitationem corporis?
+  //   }
 
-    </p>
 
-    <p>{font}</p>
 
-    <button onClick={() => handleChangeFont()}>Change font</button>
 
-  </div>
+  //   return setFont('font-poppins');
 
-);
+  // }
+
+
+
+
+  // OPTION 3
+
+  // function handleChangeFont() {
+
+  //   font === 'font-poppins'
+
+  //     ? setFont('font-caprasimo')
+
+  //     : setFont('font-poppins');
+
+  // }
+
+
+
+
+  // OPTION 4
+
+  function handleChangeFont(newFont) {
+
+    setFont(newFont);
+
+  }
+
+
+
+
+  return (
+
+    <div>
+
+      <p className={`${font}`}>
+
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+
+        distinctio iste dolor quos exercitationem praesentium, facilis
+
+        architecto laboriosam natus, dolores minus? Qui incidunt explicabo
+
+        deserunt veniam tenetur saepe exercitationem corporis?
+
+      </p>
+
+      <p>{font}</p>
+
+      <button onClick={() => handleChangeFont('font-poppins')}>
+
+        Change font poppins
+
+      </button>
+
+      <button onClick={() => handleChangeFont('font-Roboto')}>
+
+        Change font caprasimo
+
+      </button>
+
+    </div>
+
+  );
 
 }
