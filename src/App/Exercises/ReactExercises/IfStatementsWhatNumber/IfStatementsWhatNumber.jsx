@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-export function Cwiczenie2() {
+export function IfStatementsWhatNumber() {
   const [klikniec, setKlikniec] = React.useState(0);
   function handleOnClick(event) {
     event.preventDefault();
@@ -11,9 +11,9 @@ export function Cwiczenie2() {
   }
 
   return (
-    <div className="blok-8__cwiczenie-2">
-      <h1>Cześć!</h1>
-      <button type="button" onClick={handleOnClick}>Kliknięto mnie {klikniec} razy</button>
+    <div className="if-statements-what-number">
+      <h1>Jaką jestem liczbą?</h1>
+      <button type="button" onClick={handleOnClick}>Start {klikniec} liczba</button>
     </div>
   );
 

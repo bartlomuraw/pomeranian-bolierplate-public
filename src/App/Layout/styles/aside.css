@@ -32,6 +32,11 @@ aside a.active {
   color: #FE3756;
 }
 
+aside a.active,
+aside a:hover {
+  background-color: var(--color-primary-blue)
+}
+
 aside a.active svg path {
   /*background-color: var(--color-primary-blue);*/
   stroke: #FE3756;
