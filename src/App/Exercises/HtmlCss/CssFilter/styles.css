@@ -34,14 +34,10 @@
   height: 300px;
   background-size: cover;
 
-  filter: brightness(61%);
-  -webkit-filter: brightness(61%);
-  -moz-filter: brightness(61%);
-
 
 }
 
-.background-ur4 {
+.css-filter4 {
 
   background: url('./las2.jpg');
   width: 500px;
