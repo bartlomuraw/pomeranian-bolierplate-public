@@ -16,7 +16,14 @@ export function Colors() {
     <h2
       className="hsl">Jestem pomalowany przez hsl</h2>
 
-
+    <div
+      className="opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis explicabo voluptatem sunt veniam autem ex dolorum enim cupiditate harum earum, tempora doloremque, similique sit? Et reiciendis vel minus modi earum.
+    </div>
+    <div
+      className="two-squares">
+      <div className="square-1"></div>
+      <div className="square-2"></div>
+    </div>
 
 
 
