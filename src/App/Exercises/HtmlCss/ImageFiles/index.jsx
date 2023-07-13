@@ -14,7 +14,7 @@ export function ImageFiles() {
     <img src={logoIkea} alt="Ikea logo" />
     <img src={las} alt="Las" />
 
-    <RoundImage src={logoIkea} />
+    <RoundImage src={logoIkea} size="300px" />
 
   </div>
 }
