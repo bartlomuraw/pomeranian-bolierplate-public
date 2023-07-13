@@ -1,0 +1,52 @@
+.css-filter {
+
+  background: url('./las2.jpg');
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+
+  filter: brightness(61%);
+  -webkit-filter: brightness(61%);
+  -moz-filter: brightness(61%);
+}
+
+.css-filter h1 {
+  color: aqua
+}
+
+.css-filter2 {
+
+  background: url('./las2.jpg');
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+
+  filter: brightness(61%) hue-rotate(161deg);
+  -webkit-filter: brightness(61%) hue-rotate(161deg);
+  -moz-filter: brightness(61%) hue-rotate(161deg);
+
+}
+
+.css-filter3 {
+
+  background: url('./las2.jpg');
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+
+
+}
+
+.css-filter4 {
+
+  background: url('./las2.jpg');
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+
+  filter: brightness(61%);
+  -webkit-filter: brightness(61%);
+  -moz-filter: brightness(61%);
+
+
+}
