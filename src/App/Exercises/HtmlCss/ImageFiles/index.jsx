@@ -5,6 +5,7 @@ import logoPomeranian from './pomeranian-icon.png';
 import logoIkea from './logo-ikea.svg';
 
 import las from './las.jpg'
+import { RoundImage } from '../../../Components/RoundImage/RoundImage';
 
 export function ImageFiles() {
   return <div>
@@ -13,6 +14,7 @@ export function ImageFiles() {
     <img src={logoIkea} alt="Ikea logo" />
     <img src={las} alt="Las" />
 
+    <RoundImage src={logoIkea} />
 
   </div>
 }
