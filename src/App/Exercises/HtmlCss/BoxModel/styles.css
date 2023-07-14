@@ -31,3 +31,27 @@
 .span_nr1 {
   background: red;
 }
+
+.displayNone {
+  display: none;
+}
+
+.div_nr2 {
+  background-color: aqua;
+  border: 2px solid gold;
+  max-width: 100px;
+  max-height: 250px;
+  overflow: scroll;
+}
+
+.css_units_wrapper {
+  font-size: 20px;
+}
+
+.css_units_1 {}
+
+.css_units_2 {}
+
+.css_units_3 {}
+
+.css_units_4 {}
