@@ -8,6 +8,7 @@ import { blockRouterMetaData as Colors } from './Colors/router-data';
 import { blockRouterMetaData as ImageFiles } from './ImageFiles/router-data';
 import { blockRouterMetaData as Backgrounds } from './Backgrounds/router-data';
 import { blockRouterMetaData as CssFilter } from './CssFilter/router-data';
+import { blockRouterMetaData as BoxModel } from './BoxModel/router-data';
 
 
 
@@ -20,5 +21,6 @@ export const blockRouterMetaData = [
     ImageFiles,
     Backgrounds,
     CssFilter,
+    BoxModel
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
