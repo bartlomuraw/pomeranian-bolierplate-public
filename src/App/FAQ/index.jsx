@@ -1,5 +1,5 @@
 import './styles.css';
 
-export const EmptyComponent = () => {
+export const FAQ = () => {
   return <div>Change me</div>;
 };
