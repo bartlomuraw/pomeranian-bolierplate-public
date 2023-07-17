@@ -1,0 +1,13 @@
+.faq-content {
+
+
+    padding: 18px 24px;
+
+
+    gap: 18px;
+
+    border-radius: 8px;
+    border-left: 5px solid var(--gray-300, #C8CBD1);
+    background: var(--background-bg-primary, #FFF);
+
+}
