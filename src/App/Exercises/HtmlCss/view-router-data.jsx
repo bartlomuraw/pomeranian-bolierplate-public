@@ -10,6 +10,8 @@ import { blockRouterMetaData as Backgrounds } from './Backgrounds/router-data';
 import { blockRouterMetaData as CssFilter } from './CssFilter/router-data';
 import { blockRouterMetaData as BoxModel } from './BoxModel/router-data';
 import { blockRouterMetaData as Tables } from './Tables/router-data';
+import { blockRouterMetaData as TableTennis } from './TableTennis/router-data';
+
 
 
 
@@ -23,6 +25,7 @@ export const blockRouterMetaData = [
     Backgrounds,
     CssFilter,
     BoxModel,
-    Tables
+    Tables,
+    TableTennis,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
