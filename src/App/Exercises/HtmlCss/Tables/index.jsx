@@ -1,6 +1,6 @@
 import './styles.css';
 
-export const Tables = () => {
+export function Tables() {
   return (
     <div className='html-tables'>
       <p>1. The following data were collected...</p>
@@ -53,5 +53,5 @@ export const Tables = () => {
         </tbody>
       </table>
     </div>
-  )
+  );
 };
