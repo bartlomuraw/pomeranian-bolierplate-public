@@ -61,6 +61,14 @@ export function AppAside() {
               </div>
             </NavLink>
           </li>
+          <li>
+            <NavLink to="tech-stack">
+              <div className="aside-row">
+                <CalendarIcon />
+                Tech Stack
+              </div>
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <p style={{ padding: '1rem 0' }}>Sidebar items, widgets, etc</p>
