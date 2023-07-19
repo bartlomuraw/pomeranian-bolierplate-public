@@ -39,14 +39,15 @@ export const Dashboard = () => {
 
   return (
     <div className="dashboard">
-      <h2>👋 Hej, tu Bartek!</h2>
-      <p>
+      <h2 className='dashboard-header'>👋 Hej, tu Bartek!</h2>
+      <p className='dashboard-description'>
         Poniżej znajdziesz najważniejsze informacje na temat mojej działalności.
       </p>
       <div className="dashboard-cards-wrapper">
         {dashboardData.map((element) => {
           return (
             <DashboardCard
+              key={element.id}
               title={element.title}
               description={element.description}
               icon={element.icon}
@@ -54,6 +55,9 @@ export const Dashboard = () => {
           );
         })}
       </div>
+      <div className='dashboard-personal-info'></div>
+      <p>Personal Info</p>
     </div>
+
   );
 };

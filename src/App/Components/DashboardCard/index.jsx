@@ -7,7 +7,7 @@ export const DashboardCard = (props) => {
             {props.icon}
             <p className="dashboard-card-description">{props.description}</p>
             <a href="#" className="dashboard-card-navlink">
-                zobacz więcej
+                zobacz więcej &rarr;
             </a>
         </div>
     );
