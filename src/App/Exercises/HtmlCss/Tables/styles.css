@@ -1,0 +1,22 @@
+.font-test-family {
+  font-family: Chilanka;
+}
+
+.html-tables table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.html-tables td,
+.html-tables th {
+  border: 1px solid red;
+}
+
+.html-tables tr:nth-child(even) {
+  background-color: grey;
+}
+
+.html-tables tr:hover {
+  background-color: grey;
+}

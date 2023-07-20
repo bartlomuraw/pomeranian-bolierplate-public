@@ -67,6 +67,10 @@ export function AppAside() {
               <div className="aside-row">
                 <EditIcon />
                 FAQ
+            <NavLink to="tech-stack">
+              <div className="aside-row">
+                <CalendarIcon />
+                Tech Stack
               </div>
             </NavLink>
           </li>
