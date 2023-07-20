@@ -1,6 +1,7 @@
 import './styles.css';
 import { DashboardCard } from '../Components/DashboardCard';
 import { CalendarIcon } from '../Components/Icons/CalendarIcon';
+import { EditIcon } from '../Components/Icons/EditIcon';
 
 export const Dashboard = () => {
   const dashboardData = [
@@ -13,26 +14,26 @@ export const Dashboard = () => {
     {
       id: 2,
       title: 'Ćwiczenia',
-      description: 'Ćwiczeniowe description',
-      icon: <CalendarIcon />,
+      description: 'wszystkie wykonane ćwiczenia',
+      icon: <EditIcon />,
     },
     {
       id: 3,
       title: 'Blog',
-      description: 'podgląd cv wraz z doświadczeniem',
+      description: 'wpisy blogowe o technologii front-end',
       icon: <CalendarIcon />,
     },
 
     {
       id: 4,
       title: 'Tech Stack',
-      description: 'podgląd cv wraz z doświadczeniem',
+      description: 'stack technologiczny realizowany na kursie',
       icon: <CalendarIcon />,
     },
     {
       id: 5,
       title: 'FAQ',
-      description: 'podgląd cv wraz z doświadczeniem',
+      description: 'odpowiedzi na najczęstsze pytania',
       icon: <CalendarIcon />,
     },
   ];
