@@ -31,7 +31,6 @@
     flex-direction: row;
     align-items: center;
     color: var(--text-alt-primary, #FFF);
-
 }
 
 .floats-img-cookie {
@@ -52,8 +51,6 @@
     gap: 60px;
     border-radius: 8px;
     font-weight: auto;
-
-
 }
 
 .cookie-banner-button1 {
@@ -69,3 +66,33 @@
     background: #FFF;
     color: var(--primary-primary, #FE3756);
 }
+
+/*[17:31] Iwona Bigos
+
+@media (min-width: 800px) and (max-width: 900px) {
+
+  .div-with-buttons {
+
+    flex-direction: column;
+
+  }
+
+  .cookie-buttons {
+
+    margin-bottom: 10px;
+
+  }
+
+}
+
+ 
+
+@media print {
+
+  .cookie-box {
+
+    display: none;
+
+  }
+
+} */
