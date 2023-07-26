@@ -9,8 +9,8 @@ console.log(capitalizedText);
 //2
 const text = 'To jest przykładowy tekst, który chcemy obciąć po 20 znakach.';
 const x = 20;
-const truncatedTextSlice = text.slice(0, -x);
-console.log(truncatedTextSlice);
+const catedTextSlice = text.slice(0, -x);
+console.log(catedTextSlice);
 // ----------------------------------
 
 //3
@@ -27,7 +27,7 @@ const countWordOccurrences = (sentence, word) => {
   return count;
 };
 
-// Przykład użycia:
+// Przykłady:
 const sentence = 'To jest przykładowe zdanie, przykładowe słowo, jeszcze raz przykładowe .';
 const wordToCount = 'przykładowe';
 const occurrences = countWordOccurrences(sentence, wordToCount);
@@ -50,8 +50,8 @@ const emailCheck = (email) => {
   return true;
 };
 
-// Przykład użycia:
-console.log(emailCheck('john.doe@example.com')); // Output: false
+// Przykłady:
+console.log(emailCheck('bart.mur@example.com')); // Output: false
 console.log(emailCheck('abc@def.ghi')); // Output: true
 console.log(emailCheck('abcdef.gih')); // Output: false
 // ----------------------------------
@@ -62,7 +62,7 @@ const palCheck = (string) => {
   return cleanedString === cleanedString.split('').reverse().join('');
 };
 
-// Przykład użycia:
+// Przykłady:
 console.log(palCheck('level')); // Output: true
 console.log(palCheck('racecar')); // Output: true
 console.log(palCheck('hello')); // Output: false
