@@ -1,10 +1,10 @@
 import { Exercise } from './index';
 
 export const blockRouterMetaData = {
-  path: 'arrays',
+  path: 'objects',
   date: null,
-  linkLabel: 'Arrays przykłady',
+  linkLabel: 'Objects teoria',
   blockNo: 20,
   element: <Exercise />,
-  tags: ['array'],
+  tags: ['objects'],
 };
