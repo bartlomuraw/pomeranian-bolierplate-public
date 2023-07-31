@@ -10,6 +10,8 @@ import { blockRouterMetaData as blockRouterMetaDataJsStringTraining } from './Js
 import { blockRouterMetaData as blockRouterMetaDataArrays } from './Arrays/router-data';
 import { blockRouterMetaData as blockRouterMetaDataArrayMethodExercise } from './ArrayMethodExercise/router-data';
 import { blockRouterMetaData as blockRouterMetaDataObjects } from './Objects/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJSFunctionsBasics } from './JSFunctionsBasics/router-data';
+import { blockRouterMetaData as blockRouterMetaDataExerciseJsFunctionsExtended } from './ExerciseJsFunctionsExtended/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -22,5 +24,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataArrays,
   blockRouterMetaDataArrayMethodExercise,
   blockRouterMetaDataObjects,
+  blockRouterMetaDataJSFunctionsBasics,
+  blockRouterMetaDataExerciseJsFunctionsExtended,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
