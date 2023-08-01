@@ -30,10 +30,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataObjects,
   blockRouterMetaDataJSFunctionsBasics,
   blockRouterMetaDataExerciseJsFunctionsExtended,
-<<<<<<< HEAD
-=======
   blockRouterMetaDataDateAndTime,
   blockRouterMetaDataAnimationsJS,
->>>>>>> 0fdadd5 (aniamationsJS)
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
