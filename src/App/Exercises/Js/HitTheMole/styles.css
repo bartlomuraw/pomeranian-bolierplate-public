@@ -13,7 +13,7 @@
 }
 
 .htm-menu {
-  max-width: 750px;
+  max-width: 760px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);

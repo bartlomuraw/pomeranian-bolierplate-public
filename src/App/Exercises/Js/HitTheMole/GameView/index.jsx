@@ -10,7 +10,6 @@ export const GameView = ({ setGameStarted }) => {
             </Menu>
             <Menu label="WYNIK">
                 <Button>16</Button>
-
             </Menu>
             <Menu label="PRZYCISKI STERUJĄCE">
                 <Button onClick={() => setGameStarted(false)}>STOP</Button>
