@@ -1,0 +1,11 @@
+.button__base {
+    font-family: inherit;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #FFF;
+}
+
+.button--active {
+    background-color: #FE3756;
+}
