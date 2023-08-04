@@ -33,3 +33,11 @@
   background: #ebebeb;
   border-radius: 8px;
 }
+
+.htm-stage-cell--green {
+  background: #E2FBD7;
+}
+
+.htm-stage-cell--red {
+  background: #F3AEA8;
+}
