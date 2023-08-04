@@ -1,0 +1,14 @@
+.button__base {
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: rgba(35, 33, 61, 1);
+    color: #FFF;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 500px;
+    border-radius: 8px;
+}
+
+.button--active {
+    background-color: #FE3756;
+}
