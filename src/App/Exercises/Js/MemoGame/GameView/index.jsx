@@ -10,11 +10,12 @@ function formatTime(seconds) {
 }
 export { formatTime };
 
-export const GameView = ({ initialTime, time, setTime, score, setGameStarted, setGameStopped }) => {
+export const GameView = ({ initialTime, time, setTime, amount, setAmount, setGameStarted, setGameStopped }) => {
     const handleStopClick = () => {
         setTime(initialTime);
         setGameStarted(false);
         setGameStopped(true);
+
     }
 
     useEffect(() => {
@@ -41,7 +42,7 @@ export const GameView = ({ initialTime, time, setTime, score, setGameStarted, se
                 <Button>{formattedTime}</Button>
             </Menu>
             <Menu label="LICZBA RUCHÓW">
-                <Button>{score}</Button>
+                <Button>{amount}</Button>
             </Menu>
             <Menu label="PRZYCISKI STERUJĄCE">
                 <Button onClick={handleStopClick}>PASS</Button>

@@ -1,14 +1,32 @@
 import { Button } from "../Button";
+import { useState } from 'react';
 
 export const SelectButtons = (props) => {
-    const { options } = props;
-    const handleClick = () => {
+    const { options, setValue } = props;
+    const [newOptions, setNewOptions] = useState(options);
 
-    }
+    const handleClick = (value) => {
+        setValue(value);
+        setNewOptions(
+            newOptions.map((option) => {
+                return {
+                    ...option,
+                    isActive: option.value === value ? true : false,
+                };
+            })
+        );
+    };
+
     return (
         <>
-            {options.map((element) => (
-                <Button onClick={handleClick} isActive={element.isActive}>{element.label}</Button>
+            {newOptions.map(({ value, isActive, content }) => (
+                <Button
+                    onClick={() => handleClick(value)}
+                    key={value}
+                    isActive={isActive}
+                >
+                    {content}
+                </Button>
             ))}
         </>
     );

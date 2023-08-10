@@ -1,0 +1,39 @@
+.mg-board {
+    margin: 100px;
+    display: flex;
+    gap: 20px;
+    width: 720px;
+    flex-wrap: wrap;
+}
+
+.mg-board-field {
+    width: 160px;
+    height: 160px;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    transition: 0.3s ease-in-out;
+    transform-origin: center;
+    background: #EBEBEB;
+    border-radius: 8px;
+}
+
+.mg-field-clicked {
+    background-color: #e8e8e8;
+    transform: scale(1.1);
+
+}
+
+.mg-field-paired {
+    background-color: #E2FBD7;
+}
+
+.mg-field-incorrect {
+    background-color: #F3AEA8;
+}

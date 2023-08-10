@@ -2,7 +2,7 @@ import { Button } from '../Button';
 import { Menu } from '../Menu';
 import { SelectButtons } from '../SelectButtons';
 
-export const MenuView = ({ setGameStarted, setGameStopped }) => {
+export const MenuView = ({ setGameStarted, setGameStopped, setBoardSize, boardSize }) => {
     const handleStartClick = () => {
         setGameStopped(false);
         setGameStarted(true);
@@ -11,10 +11,23 @@ export const MenuView = ({ setGameStarted, setGameStopped }) => {
         <div className='mg-menu'>
             <Menu label="LICZBA ELEMENTÓW">
                 <SelectButtons
+                    setValue={setBoardSize}
                     options={[
-                        { value: 1, label: '8 elementów', isActive: true },
-                        { value: 2, label: '16 elementów', isActive: false },
-                        { value: 3, label: '20 elementów', isActive: false },
+                        {
+                            value: 8,
+                            content: '8 elementów',
+                            isActive: false,
+                        },
+                        {
+                            value: 16,
+                            content: '16 elementów',
+                            isActive: false,
+                        },
+                        {
+                            value: 20,
+                            content: '20 elementów',
+                            isActive: false,
+                        },
                     ]}
                 />
             </Menu>

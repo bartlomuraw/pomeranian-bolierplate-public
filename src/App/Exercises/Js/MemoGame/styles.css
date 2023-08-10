@@ -27,7 +27,7 @@
     row-gap: 40px;
 }
 
-.mg-stage {
+/* .mg-stage {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(4, 160px);
@@ -39,4 +39,4 @@
 .mg-stage-cell {
     background: #EBEBEB;
     border-radius: 8px;
-}
+} */
