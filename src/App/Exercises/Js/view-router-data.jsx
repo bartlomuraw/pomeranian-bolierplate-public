@@ -18,6 +18,8 @@ import { blockRouterMetaData as blockRouterMetaDataAnimationsJS } from './Animat
 import { blockRouterMetaDataHitTheMole } from './HitTheMole/router-data';
 import { blockRouterMetaDataMemoGame } from './MemoGame/router-data';
 import { blockRouterMetaData as blockRouterMetaDataMemoGameExmple } from './MemoGameExample/router-data';
+import { blockRouterMetaData as blockRouterMetaDataOOP } from './OOP/router-data';
+import { blockRouterMetaData as blockRouterMetaDataTryCatchPrototype } from './TryCatchPrototype/router-data';
 
 
 export const blockRouterMetaData = [
@@ -38,6 +40,8 @@ export const blockRouterMetaData = [
   blockRouterMetaDataHitTheMole,
   blockRouterMetaDataMemoGame,
   blockRouterMetaDataMemoGameExmple,
+  blockRouterMetaDataOOP,
+  blockRouterMetaDataTryCatchPrototype
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
