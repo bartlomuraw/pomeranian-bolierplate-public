@@ -16,6 +16,11 @@ import { blockRouterMetaData as blockRouterMetaDataIntervalsDate } from './Inter
 import { blockRouterMetaData as blockRouterMetaDataDateAndTime } from './DateAndTime/router-data';
 import { blockRouterMetaData as blockRouterMetaDataAnimationsJS } from './AnimationsJS/router-data';
 import { blockRouterMetaDataHitTheMole } from './HitTheMole/router-data';
+import { blockRouterMetaDataMemoGame } from './MemoGame/router-data';
+import { blockRouterMetaData as blockRouterMetaDataMemoGameExmple } from './MemoGameExample/router-data';
+import { blockRouterMetaData as blockRouterMetaDataOOP } from './OOP/router-data';
+import { blockRouterMetaData as blockRouterMetaDataTryCatchPrototype } from './TryCatchPrototype/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJSONXMLStorage } from './JSONXMLStorage/router-data';
 
 
 export const blockRouterMetaData = [
@@ -34,6 +39,11 @@ export const blockRouterMetaData = [
   blockRouterMetaDataDateAndTime,
   blockRouterMetaDataAnimationsJS,
   blockRouterMetaDataHitTheMole,
+  blockRouterMetaDataMemoGame,
+  blockRouterMetaDataMemoGameExmple,
+  blockRouterMetaDataOOP,
+  blockRouterMetaDataTryCatchPrototype,
+  blockRouterMetaDataJSONXMLStorage,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
