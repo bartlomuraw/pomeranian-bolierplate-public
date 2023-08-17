@@ -21,6 +21,7 @@ import { blockRouterMetaData as blockRouterMetaDataMemoGameExmple } from './Memo
 import { blockRouterMetaData as blockRouterMetaDataOOP } from './OOP/router-data';
 import { blockRouterMetaData as blockRouterMetaDataTryCatchPrototype } from './TryCatchPrototype/router-data';
 import { blockRouterMetaData as blockRouterMetaDataJSONXMLStorage } from './JSONXMLStorage/router-data';
+import { blockRouterMetaData as blockRouterMetaDataSavedInput } from './SavedInput/router-data';
 
 
 export const blockRouterMetaData = [
@@ -44,6 +45,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataOOP,
   blockRouterMetaDataTryCatchPrototype,
   blockRouterMetaDataJSONXMLStorage,
+  blockRouterMetaDataSavedInput,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
