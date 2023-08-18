@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { UseEffectAndPromise } from './UseEffectAndPromise';
 import { UseEffectAndPromise2 } from './UseEffectAndPromise2';
+import { AsyncAwait } from './AsyncAwait';
 
 export const Exercise = () => {
   // -----------------------------------------------------------------------------
@@ -261,6 +262,7 @@ export const Exercise = () => {
     <div>
       <UseEffectAndPromise />
       <UseEffectAndPromise2 />
+      <AsyncAwait />
     </div>
   );
 };
