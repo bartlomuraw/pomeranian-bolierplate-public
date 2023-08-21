@@ -6,6 +6,7 @@ import { Cwiczenie2MetaData } from './Cwiczenie2/router-data';
 import { routerMetaData as IfStatementsMetaData } from './IfStatements/router-data';
 import { routerMetaData as IfStatementsMoreOrLessMetaData } from './IfStatementsMoreOrLess/router-data';
 import { routerMetaData as IfStatementsWhatNumberMetaData } from './IfStatementsWhatNumber/router-data';
+import { routerMetaData as LocalDevAndFetchMetaData } from './LocalDevAndFetch/router-data';
 
 export const blockRouterMetaData = [
     SubRouteExampleMetaData,
@@ -14,6 +15,7 @@ export const blockRouterMetaData = [
     IfStatementsMetaData,
     IfStatementsMoreOrLessMetaData,
     IfStatementsWhatNumberMetaData,
+    LocalDevAndFetchMetaData,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
