@@ -9,6 +9,7 @@ import { routerMetaData as IfStatementsWhatNumberMetaData } from './IfStatements
 import { routerMetaData as LocalDevAndFetchMetaData } from './LocalDevAndFetch/router-data';
 import { routerMetaData as ToDoWithServerMetaData } from './ToDoWithServer/router-data';
 import { routerMetaData as ToDoWithServerExampleMetaData } from './ToDoWithServerExample/router-data';
+import { routerMetaData as ReactUseRefMetaData } from './ReactUseRef/router-data';
 
 export const blockRouterMetaData = [
     SubRouteExampleMetaData,
@@ -20,6 +21,7 @@ export const blockRouterMetaData = [
     LocalDevAndFetchMetaData,
     ToDoWithServerMetaData,
     ToDoWithServerExampleMetaData,
+    ReactUseRefMetaData,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
