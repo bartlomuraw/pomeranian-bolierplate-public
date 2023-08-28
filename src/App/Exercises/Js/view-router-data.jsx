@@ -26,6 +26,7 @@ import { blockRouterMetaData as blockRouterMetaDataPromises } from './Promises/r
 import { blockRouterMetaData as blockRouterMetaDataAsyncAwaitExercise } from './AsyncAwaitExercise/router-data';
 import { blockRouterMetaData as blockRouterMetaDataPromiseMethodsTraining } from './PromiseMethodsTraining/router-data';
 import { blockRouterMetaData as blockRouterMetaDataDogApi } from './DogApi/router-data';
+import { blockRouterMetaData as blockRouterMetaDataDOMuseRef } from './DOMuseRef/router-data';
 
 
 
@@ -55,6 +56,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataAsyncAwaitExercise,
   blockRouterMetaDataPromiseMethodsTraining,
   blockRouterMetaDataDogApi,
+  blockRouterMetaDataDOMuseRef,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
