@@ -1,0 +1,46 @@
+.formbasic-wrapper {
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f4f5f7;
+  padding: 25px;
+  border-radius: 16px;
+  accent-color: #37fec9;
+}
+
+/* .forms-select {
+  padding: 5px 10px;
+  border: 1px solid #c8cbd1;
+  border-radius: 5px;
+  appearance: none;
+  font-family: inherit;
+  background-image: url('./Group.png');
+  background-repeat: no-repeat;
+  background-position: 96%;
+  outline-color: #fe3756;
+}
+
+.forms-multi-checkbox>div {
+  display: flex;
+}
+
+.forms-multi-checkbox>div>input[type='checkbox'] {
+  margin-right: 7px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  font-family: inherit;
+  padding: 13px 16px;
+  border: 1px solid #c8cbd1;
+  border-radius: 5px;
+}
+
+input[type='text']::placeholder {
+  color: #fe3756;
+  font-weight: bold;
+} */
